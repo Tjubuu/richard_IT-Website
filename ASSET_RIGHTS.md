@@ -7,7 +7,7 @@ richard_IT verwendet werden und auf welcher Grundlage sie genutzt werden.
 
 ## Grundsatz
 
-Alle aktuell im Repository liegenden Bildassets unter ssets/img/ sind
+Alle aktuell im Repository liegenden Bildassets unter assets/img/ sind
 eigene Assets von Thorsten Richarz beziehungsweise richard_IT.
 
 Es werden keine fremden Logos, Plattformlogos, Stockfotos, Icon Fonts,
