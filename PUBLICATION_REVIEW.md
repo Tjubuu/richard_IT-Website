@@ -47,22 +47,6 @@ GitHub Pages ist als Hosting Umgebung zu berücksichtigen. GitHub kann beim
 Abruf der Seiten technische Zugriffsdaten verarbeiten, insbesondere IP Adressen
 zu Sicherheitszwecken.
 
-## HubSpot
-
-HubSpot wird aktuell nicht auf der Website eingebunden.
-
-Aktueller Stand:
-
-- kein HubSpot Tracking Code
-- kein HubSpot Formular
-- kein HubSpot iframe
-- kein HubSpot Link auf der Kontaktseite
-- HubSpot wird erst nach sauberer Account Einrichtung und Datenschutzprüfung genutzt
-
-Bekannte HubSpot Information aus dem Account:
-
-- Geschäftsmail: richard_IT@eclipso.eu
-- Account Hinweis: eclipso Mail Europe 148531682
 
 ## Externe Profile auf der Kontaktseite
 
@@ -86,7 +70,6 @@ Aktueller geprüfter Stand:
 - keine iframe Tags in HTML Dateien
 - kein Google Tag Manager
 - kein Analytics
-- kein HubSpot Script
 - keine externen CSS Importe
 - keine externen Fonts
 - keine CDN Ressourcen
@@ -107,10 +90,8 @@ Geprüft wurde lokal und gegen die veröffentlichte GitHub Pages Seite:
 
 - keine alte Repository URL richard-it-website in der veröffentlichten Kontaktseite
 - korrekte öffentliche URL richard_IT-Website
-- keine HubSpot Einbindung auf der veröffentlichten Kontaktseite
 - keine script Tags auf der veröffentlichten Kontaktseite
 - keine iframe Tags auf der veröffentlichten Kontaktseite
-- Datenschutz enthält Hinweis, dass HubSpot derzeit nicht eingebunden wird
 - Kontaktseite enthält externe Profile als einfache Links
 - ASSET_RIGHTS.md ist vorhanden und textlich korrigiert
 
@@ -121,7 +102,6 @@ Bei jeder späteren Erweiterung der Website erneut prüfen:
 - Werden neue Skripte eingebunden?
 - Werden externe Fonts oder CDN Ressourcen geladen?
 - Werden Formulare eingebunden?
-- Wird HubSpot aktiviert?
 - Werden Cookies gesetzt?
 - Werden neue Bilder, Logos oder Icons verwendet?
 - Müssen Datenschutz oder Impressum angepasst werden?
