@@ -361,3 +361,59 @@ li {
     width: auto;
   }
 }
+/* Page-specific watermark backgrounds */
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: right 7vw top 18vh;
+  background-size: min(42vw, 540px);
+  opacity: 0.055;
+}
+
+body.page-home::before {
+  background-image: url("../img/watermarks/watermark-home-gear.svg");
+}
+
+body.page-consulting::before {
+  background-image: url("../img/watermarks/watermark-consulting-dialog.svg");
+}
+
+body.page-process::before {
+  background-image: url("../img/watermarks/watermark-process-steps.svg");
+}
+
+body.page-remote::before {
+  background-image: url("../img/watermarks/watermark-remote-connection.svg");
+}
+
+body.page-projects::before {
+  background-image: url("../img/watermarks/watermark-projects-network.svg");
+}
+
+body.page-prices::before {
+  background-image: url("../img/watermarks/watermark-prices-scale.svg");
+}
+
+body.page-about::before {
+  background-image: url("../img/watermarks/watermark-about-workbench.svg");
+}
+
+body.page-contact::before {
+  background-image: url("../img/watermarks/watermark-contact-envelope.svg");
+}
+
+@media (max-width: 760px) {
+  body::before {
+    background-position: right -18vw top 18vh;
+    background-size: 88vw;
+    opacity: 0.035;
+  }
+}
