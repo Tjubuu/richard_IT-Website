@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -42,11 +43,11 @@
   <header class="site-header">
     <div class="container">
       <div class="brand">
-        <a href="index.html" aria-label="richard_IT e.K. Startseite">
+        <a href="index.html" aria-label="Zur Startseite von richard_IT e.K.">
           <img
             class="brand-logo"
             src="assets/img/logo_hell.png"
-            alt="richard_IT Logo"
+            alt="Logo von richard_IT e.K."
           >
           <span>richard_IT e.K.</span>
         </a>
@@ -64,10 +65,10 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
       <div class="container">
-        <h1>Softwareentwicklung aus der Praxis. SourceWatch im Fokus.</h1>
+        <h1 id="hero-heading">Softwareentwicklung aus der Praxis. SourceWatch im Fokus.</h1>
         <p>
           richard_IT e.K. ist meine Software-Werkstatt. Ich entwickle praxisnahe
           Lösungen, die Arbeit strukturieren, Entscheidungen nachvollziehbarer
@@ -76,8 +77,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="home-intro-heading">
       <div class="container">
+        <h2 id="home-intro-heading" class="visually-hidden">Überblick</h2>
         <p>
           Der aktuelle Schwerpunkt liegt auf SourceWatch: einem
           gründergeführten Spezialprodukt für strukturierte Lieferantenrisiko-
@@ -92,9 +94,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="sourcewatch-heading">
       <div class="container">
-        <h2>SourceWatch</h2>
+        <h2 id="sourcewatch-heading">SourceWatch</h2>
         <p>
           SourceWatch unterstützt dabei, Lieferanten- und Beschaffungsrisiken
           strukturiert zu erfassen, relevante Signale einzuordnen und
@@ -113,9 +115,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="philosophy-heading">
       <div class="container">
-        <h2>Software statt Show</h2>
+        <h2 id="philosophy-heading">Software statt Show</h2>
         <p>
           Ich entwickle Lösungen, die verständlich bleiben, im Alltag tragen
           und konkrete Anforderungen ernst nehmen. Entscheidend ist nicht, wie
@@ -134,9 +136,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="collaboration-heading">
       <div class="container">
-        <h2>Zusammenarbeit</h2>
+        <h2 id="collaboration-heading">Zusammenarbeit</h2>
         <p>
           Möglich sind ein standardisierter SourceWatch-Pilot, begleitende
           Beratung, individuelle Softwareentwicklung oder gezielte Erweiterungen
@@ -148,9 +150,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="contact-section-heading">
       <div class="container">
-        <h2>Kontakt</h2>
+        <h2 id="contact-section-heading">Kontakt</h2>
         <p>
           Wenn Sie über SourceWatch, einen begleiteten Pilot oder eine konkrete
           Softwareanforderung sprechen möchten, schreiben Sie mir gerne.
@@ -165,7 +167,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; richard_IT e.K.</p>
-      <nav aria-label="Footer Navigation">
+      <nav aria-label="Footer-Navigation">
         <a href="index.html">Start</a>
         <a href="projekte.html">Software</a>
         <a href="beratung.html">Beratung</a>
