@@ -345,7 +345,6 @@ address {
   outline-offset: 3px;
 }
 
-/* Responsive social links */
 @media (max-width: 760px) {
   .social-links {
     flex-direction: column;
