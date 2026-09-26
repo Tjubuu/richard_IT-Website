@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -42,11 +43,11 @@
   <header class="site-header">
     <div class="container">
       <div class="brand">
-        <a href="index.html" aria-label="richard_IT Startseite">
+        <a href="index.html" aria-label="Zur Startseite von richard_IT e.K.">
           <img
             class="brand-logo"
             src="assets/img/logo_hell.png"
-            alt="richard_IT Logo"
+            alt="Logo von richard_IT e.K."
           >
           <span>richard_IT e.K.</span>
         </a>
@@ -64,10 +65,10 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="remote-heading">
       <div class="container">
-        <h1>Remote-Zusammenarbeit</h1>
+        <h1 id="remote-heading">Remote-Zusammenarbeit</h1>
         <p>
           Remote-Arbeit ist bei richard_IT e.K. ein Werkzeug für Abstimmung,
           Pilotbegleitung und technische Klärung. Kein Dauerzugriff und keine
@@ -76,8 +77,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="remote-intro-heading">
       <div class="container">
+        <h2 id="remote-intro-heading" class="visually-hidden">Einordnung</h2>
         <p>
           Viele Schritte in einem SourceWatch-Pilot oder Softwareprojekt lassen
           sich remote sinnvoll begleiten: Anforderungen klären, Ergebnisse
@@ -91,9 +93,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="transparency-heading">
       <div class="container">
-        <h2>Transparenz vor Zugriff</h2>
+        <h2 id="transparency-heading">Transparenz vor Zugriff</h2>
         <p>
           Es gibt keinen dauerhaften Hintergrundzugriff und keine
           stillschweigende Verbindung im laufenden Betrieb. Remote-Arbeit muss
@@ -102,9 +104,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="suitable-heading">
       <div class="container">
-        <h2>Geeignet für</h2>
+        <h2 id="suitable-heading">Geeignet für</h2>
         <p>
           Remote-Zusammenarbeit eignet sich für Pilotgespräche, fachliche
           Abstimmung, technische Einordnung, kurze Workshops und begleitende
@@ -120,7 +122,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; richard_IT e.K.</p>
-      <nav aria-label="Footer Navigation">
+      <nav aria-label="Footer-Navigation">
         <a href="index.html">Start</a>
         <a href="projekte.html">Software</a>
         <a href="beratung.html">Beratung</a>
