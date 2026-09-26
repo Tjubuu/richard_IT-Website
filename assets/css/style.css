@@ -266,6 +266,102 @@ li {
   margin-bottom: 0;
 }
 
+/* Contact page specific styling */
+address {
+  font-style: normal;
+  margin: 1.5rem 0;
+}
+
+.contact-email {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  background: var(--surface);
+  border: 2px solid var(--link);
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--link);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.contact-email:hover {
+  background: var(--link);
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.contact-email:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: none;
+}
+
+.social-links li {
+  margin: 0;
+  flex: 0 1 auto;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  background: var(--surface);
+  border: 2px solid var(--link);
+  border-radius: var(--radius);
+  color: var(--link);
+  font-weight: 600;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.social-links a:hover {
+  background: var(--link);
+  color: #ffffff;
+  border-color: var(--link);
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.social-links a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Responsive social links */
+@media (max-width: 760px) {
+  .social-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .social-links li {
+    width: 100%;
+  }
+
+  .social-links a {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .site-footer {
   margin-top: 4rem;
   padding: 2.25rem 0;
@@ -361,6 +457,7 @@ li {
     width: auto;
   }
 }
+
 /* Page-specific watermark backgrounds */
 body {
   position: relative;
