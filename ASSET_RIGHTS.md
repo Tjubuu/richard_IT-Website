@@ -3,12 +3,12 @@
 Stand: 2026-05-21
 
 Dieses Dokument hält fest, welche Bildassets im Repository der Website
-richard_IT verwendet werden und auf welcher Grundlage sie genutzt werden.
+richard_IT e.K. verwendet werden und auf welcher Grundlage sie genutzt werden.
 
 ## Grundsatz
 
 Alle aktuell im Repository liegenden Bildassets unter assets/img/ sind
-eigene Assets von Thorsten Richarz beziehungsweise richard_IT.
+eigene Assets von Thorsten Richarz beziehungsweise richard_IT e.K..
 
 Es werden keine fremden Logos, Plattformlogos, Stockfotos, Icon Fonts,
 externen Bildquellen oder eingebetteten Medien Dritter verwendet.
