@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -42,11 +43,11 @@
   <header class="site-header">
     <div class="container">
       <div class="brand">
-        <a href="index.html" aria-label="richard_IT Startseite">
+        <a href="index.html" aria-label="Zur Startseite von richard_IT e.K.">
           <img
             class="brand-logo"
             src="assets/img/logo_hell.png"
-            alt="richard_IT Logo"
+            alt="Logo von richard_IT e.K."
           >
           <span>richard_IT e.K.</span>
         </a>
@@ -64,10 +65,10 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="about-heading">
       <div class="container">
-        <h1>Über mich</h1>
+        <h1 id="about-heading">Über mich</h1>
         <p>
           Hinter richard_IT e.K. stehe ich, Thorsten Richarz. Mein aktueller Fokus
           liegt auf praxisnaher Softwareentwicklung und auf SourceWatch.
@@ -75,8 +76,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="about-intro-heading">
       <div class="container">
+        <h2 id="about-intro-heading" class="visually-hidden">Hintergrund</h2>
         <p>
           richard_IT e.K. ist aus praktischer IT-Unterstützung entstanden. Aus dieser
           Arbeit hat sich Schritt für Schritt der Schwerpunkt auf eigene
@@ -92,9 +94,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="focus-heading">
       <div class="container">
-        <h2>Worum es mir geht</h2>
+        <h2 id="focus-heading">Worum es mir geht</h2>
         <p>
           Im Mittelpunkt steht für mich nicht Technik als Selbstzweck, sondern
           die Frage, wie Menschen mit ihr sinnvoll arbeiten können.
@@ -106,9 +108,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="work-heading">
       <div class="container">
-        <h2>Wie ich arbeite</h2>
+        <h2 id="work-heading">Wie ich arbeite</h2>
         <p>
           Ich arbeite ruhig, direkt und praktisch. Mir ist wichtig, dass
           Software nicht nur technisch funktioniert, sondern fachlich erklärbar,
@@ -122,9 +124,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="attitude-heading">
       <div class="container">
-        <h2>Haltung</h2>
+        <h2 id="attitude-heading">Haltung</h2>
         <p>
           Technik sollte Menschen entlasten und ihnen Arbeit erleichtern. Nicht
           durch Show, sondern durch Klarheit. Nicht durch unnötige Komplexität,
@@ -139,9 +141,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="contact-heading">
       <div class="container">
-        <h2>Kontakt</h2>
+        <h2 id="contact-heading">Kontakt</h2>
         <p>
           Wenn Sie über SourceWatch, einen Pilot oder eine konkrete
           Softwareanforderung sprechen möchten, freue ich mich über Ihre
@@ -157,7 +159,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; richard_IT e.K.</p>
-      <nav aria-label="Footer Navigation">
+      <nav aria-label="Footer-Navigation">
         <a href="index.html">Start</a>
         <a href="projekte.html">Software</a>
         <a href="beratung.html">Beratung</a>
