@@ -2,7 +2,7 @@
 
 Stand: 2026-05-23
 
-Projekt: richard_IT Website
+Projekt: richard_IT e.K. Website
 
 ## Repository
 
@@ -36,7 +36,7 @@ Letzter bestätigter Stand:
 ## Veröffentlichungsziel
 
 Die Website soll öffentlich auftreten als ruhige, sachliche und handwerklich saubere
-Präsenz von richard_IT.
+Präsenz von richard_IT e.K..
 
 Ziel ist Vertrauen durch:
 
@@ -107,9 +107,9 @@ Auf der Kontaktseite sind folgende Profile eingebunden:
 | Portal | Link |
 | --- | --- |
 | LinkedIn | `https://www.linkedin.com/in/thorsten-richarz-8471483b1` |
-| Substack Werkstattprosa | `https://substack.com/@werkstattprosa` |
-| Hacker News | `https://news.ycombinator.com/user?id=tjubuu` |
-| Bluesky | `https://bsky.app/profile/richardit.bsky.social` |
+| Substack | `https://substack.com/` |
+| Instagram | `https://www.instagram.com/` |
+| Facebook | `https://www.facebook.com/profile.php?id=61594999310708` |
 
 Bewertung:
 
@@ -126,8 +126,8 @@ Gefundene erwartete Treffer:
 
 - `linkedin.com`
 - `substack.com`
-- `news.ycombinator.com`
-- `bsky.app`
+- `https://www.instagram.com/`
+- `https://www.facebook.com/`
 
 Nicht gefunden:
 
@@ -228,9 +228,9 @@ Kontakt:
 - E Mail:
   `richard_IT@eclipso.de`
 - Telefon sichtbar:
-  `015237657522`
+  `017641504218`
 - Telefon Link:
-  `tel:+4915237657522`
+  `tel:+4917641504218`
 
 Bewertung:
 
@@ -244,9 +244,8 @@ Gefundene erwartete Treffer:
 
 - `mailto:richard_IT@eclipso.de`
 - `Telefon`
-- `tel:+4915237657522`
-- `015237657522`
-
+- `tel:+4917641504218`
+- `017641504218'  
 Nicht gefunden:
 
 - HubSpot
@@ -376,8 +375,8 @@ Ergebnis:
 
 - LinkedIn vorhanden
 - Substack vorhanden
-- Hacker News vorhanden
-- Bluesky vorhanden
+- Instagram vorhanden
+- Facebook vorhanden
 - keine HubSpot Treffer
 - keine Script Treffer
 - keine iframe Treffer
