@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -42,11 +43,11 @@
   <header class="site-header">
     <div class="container">
       <div class="brand">
-        <a href="index.html" aria-label="richard_IT Startseite">
+        <a href="index.html" aria-label="Zur Startseite von richard_IT e.K.">
           <img
             class="brand-logo"
             src="assets/img/logo_hell.png"
-            alt="richard_IT Logo"
+            alt="Logo von richard_IT e.K."
           >
           <span>richard_IT e.K.</span>
         </a>
@@ -64,10 +65,10 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="projects-heading">
       <div class="container">
-        <h1>Software</h1>
+        <h1 id="projects-heading">Software</h1>
         <p>
           SourceWatch ist der aktuelle Schwerpunkt. Die Materialverwaltung zeigt
           als Referenz, wie aus konkreten Anforderungen schlanke Software aus
@@ -76,9 +77,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="sourcewatch-heading">
       <div class="container">
-        <h2>SourceWatch</h2>
+        <h2 id="sourcewatch-heading">SourceWatch</h2>
         <p>
           SourceWatch ist ein gründergeführtes Spezialprodukt zur strukturierten
           Bewertung von Lieferanten- und Beschaffungsrisiken. Es richtet sich
@@ -106,9 +107,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="pilot-heading">
       <div class="container">
-        <h2>Pilot mit Mitgestaltung</h2>
+        <h2 id="pilot-heading">Pilot mit Mitgestaltung</h2>
         <p>
           Ein Pilot ist nicht nur ein Testlauf. Pilotkunden können Rückmeldung
           geben, Anforderungen priorisieren und mitprägen, welche fachlichen
@@ -128,9 +129,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="inventory-heading">
       <div class="container">
-        <h2>Materialverwaltung</h2>
+        <h2 id="inventory-heading">Materialverwaltung</h2>
         <p>
           Die 'Materialverwaltung' ist ein Referenzprojekt aus der Praxis: eine
           schlanke lokale Anwendung für Bestände, Artikel und einfache
@@ -151,9 +152,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="custom-dev-heading">
       <div class="container">
-        <h2>Individuelle Softwareentwicklung</h2>
+        <h2 id="custom-dev-heading">Individuelle Softwareentwicklung</h2>
         <p>
           Neben SourceWatch sind individuelle Entwicklungen möglich, wenn eine
           konkrete fachliche Anforderung klar genug ist und eine schlanke
@@ -173,7 +174,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; richard_IT e.K.</p>
-      <nav aria-label="Footer Navigation">
+      <nav aria-label="Footer-Navigation">
         <a href="index.html">Start</a>
         <a href="projekte.html">Software</a>
         <a href="beratung.html">Beratung</a>
