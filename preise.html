@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -42,11 +43,11 @@
   <header class="site-header">
     <div class="container">
       <div class="brand">
-        <a href="index.html" aria-label="richard_IT Startseite">
+        <a href="index.html" aria-label="Zur Startseite von richard_IT e.K.">
           <img
             class="brand-logo"
             src="assets/img/logo_hell.png"
-            alt="richard_IT Logo"
+            alt="Logo von richard_IT e.K."
           >
           <span>richard_IT e.K.</span>
         </a>
@@ -64,10 +65,10 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main-content">
+    <section class="hero" aria-labelledby="prices-heading">
       <div class="container">
-        <h1>Zusammenarbeit und Preise</h1>
+        <h1 id="prices-heading">Zusammenarbeit und Preise</h1>
         <p>
           Klare Richtwerte für SourceWatch-Piloten, Softwareentwicklung und
           begleitende Beratung. Alle Preise verstehen sich netto und werden vor
@@ -76,8 +77,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="prices-intro-heading">
       <div class="container">
+        <h2 id="prices-intro-heading" class="visually-hidden">Preisübersicht</h2>
         <p>
           richard_IT e.K. ist keine allgemeine Klein-IT-Hilfe, sondern auf
           Softwareentwicklung, SourceWatch und fachlich nachvollziehbare
@@ -92,9 +94,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="pilot-price-heading">
       <div class="container">
-        <h2>SourceWatch Standardpilot</h2>
+        <h2 id="pilot-price-heading">SourceWatch Standardpilot</h2>
         <p>
           Der Standardpilot ist der klare Einstieg in SourceWatch. Er umfasst
           einen begleiteten Zeitraum von sechs Wochen mit bis zu drei realen
@@ -111,9 +113,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="extensions-heading">
       <div class="container">
-        <h2>Mitgestaltung und individuelle Erweiterungen</h2>
+        <h2 id="extensions-heading">Mitgestaltung und individuelle Erweiterungen</h2>
         <p>
           Pilotkunden können Rückmeldung geben und mitprägen, welche fachlichen
           Sichten, Abläufe oder Auswertungen für SourceWatch besonders wertvoll
@@ -131,9 +133,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="license-heading">
       <div class="container">
-        <h2>SourceWatch Anschlusslizenz</h2>
+        <h2 id="license-heading">SourceWatch Anschlusslizenz</h2>
         <p>
           Nach einem erfolgreichen Pilot ist eine begleitete jährliche Nutzung
           von SourceWatch möglich. Der Rahmen wird nach dem Pilot konkret
@@ -148,9 +150,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="dev-rate-heading">
       <div class="container">
-        <h2>Softwareentwicklung und Projektarbeit</h2>
+        <h2 id="dev-rate-heading">Softwareentwicklung und Projektarbeit</h2>
         <p>
           Für individuelle Softwareentwicklung, produktnahe Erweiterungen,
           technische Konzeption und größere Projektarbeiten gilt ein Tagessatz.
@@ -161,9 +163,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="consulting-rate-heading">
       <div class="container">
-        <h2>Beratung, Analyse und Workshops</h2>
+        <h2 id="consulting-rate-heading">Beratung, Analyse und Workshops</h2>
         <p>
           Für Anforderungsklärung, Pilotvorbereitung, fachliche Analyse,
           technische Einordnung oder Workshops gilt ein Stundensatz, sofern kein
@@ -175,9 +177,9 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" aria-labelledby="material-heading">
       <div class="container">
-        <h2>Materialverwaltung</h2>
+        <h2 id="material-heading">Materialverwaltung</h2>
         <p>
           Die Materialverwaltung wird auf dieser Website als Referenzprojekt
           geführt. Sie ist aktuell nicht das zentrale Lizenzangebot von
@@ -186,9 +188,9 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt" aria-labelledby="note-heading">
       <div class="container">
-        <h2>Hinweis</h2>
+        <h2 id="note-heading">Hinweis</h2>
         <p>
           Preise und Umfang werden vor Beginn sauber abgegrenzt. Wenn sich im
           Gespräch zeigt, dass ein Thema kleiner, größer oder anders gelagert
@@ -205,7 +207,7 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>&copy; richard_IT e.K.</p>
-      <nav aria-label="Footer Navigation">
+      <nav aria-label="Footer-Navigation">
         <a href="index.html">Start</a>
         <a href="projekte.html">Software</a>
         <a href="beratung.html">Beratung</a>
