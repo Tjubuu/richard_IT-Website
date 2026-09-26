@@ -2,11 +2,11 @@
 
 Stand: 2026-05-23
 
-Projekt: richard_IT Website
+Projekt: richard_IT e.K. Website
 
 ## Ziel
 
-Die Website von richard_IT soll eine ruhige, ehrliche, rechtlich unauffällige und
+Die Website von richard_IT e.K. soll eine ruhige, ehrliche, rechtlich unauffällige und
 technisch saubere Online Präsenz sein.
 
 Sie soll keine aggressive Marketingseite sein, sondern Vertrauen schaffen durch:
@@ -80,7 +80,7 @@ Der Nutzer hat bestätigt:
 
 ## Öffentlichkeitslinie
 
-Die Haltung von richard_IT soll nicht laut ideologisch benannt werden, sondern über Werte
+Die Haltung von richard_IT e.K. soll nicht laut ideologisch benannt werden, sondern über Werte
 spürbar werden:
 
 - Würde der Arbeit
@@ -128,10 +128,10 @@ Auf der Kontaktseite sind folgende Profile eingebunden:
   `https://www.linkedin.com/in/thorsten-richarz-8471483b1`
 - Substack Werkstattprosa:
   `https://substack.com/@werkstattprosa`
-- Hacker News:
-  `https://news.ycombinator.com/user?id=tjubuu`
-- Bluesky:
-  `https://bsky.app/profile/richardit.bsky.social`
+- Facebook:
+  `(https://www.facebook.com/profile.php?id=61594999310708)`
+- Instagram:
+  `https://www.instagram.com/`
 
 Technischer Standard:
 
@@ -187,9 +187,9 @@ Kontakt:
 - E Mail:
   `richard_IT@eclipso.de`
 - Telefon sichtbar:
-  `015237657522`
+  `017641504218`
 - Telefon Link:
-  `tel:+4915237657522`
+  `tel:+4917641504218`
 
 Begründung:
 
@@ -326,8 +326,8 @@ Erwartete Treffer gefunden:
 
 - LinkedIn
 - Substack
-- Hacker News
-- Bluesky
+- Instagram
+- Facebook
 
 Keine Treffer:
 
