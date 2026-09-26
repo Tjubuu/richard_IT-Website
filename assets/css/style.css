@@ -93,11 +93,9 @@ a:hover {
 }
 
 .brand-logo {
-  display: block;
+  height: 40px;
   width: auto;
-  height: 34px;
-  margin-right: 0;
-  transform: translateY(1px);
+  display: block;
 }
 
 .site-nav {
