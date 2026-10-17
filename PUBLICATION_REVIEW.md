@@ -25,10 +25,10 @@ Standardbranch:
 Letzter bestätigter Stand:
 
 - `main`
-- Commit `f66d6dd`
+- Commit `3356ad5`
 - `origin/main`
-- Merge PR #16
-- Branch `product/asset-sale-website-texte-20261017-v1`
+- Merge PR #17
+- Branch `product/about-vorschlag-46-20261017-v1`
 - Remote Branch gelöscht
 - lokaler Status sauber
 
