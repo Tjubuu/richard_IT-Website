@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tjubuu.github.io/richard_IT-Website/sitemap.xml
