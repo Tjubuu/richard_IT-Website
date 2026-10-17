@@ -25,10 +25,10 @@ Standardbranch:
 Letzter bestätigter Stand:
 
 - `main`
-- Commit `bb13bb1`
+- Commit `f66d6dd`
 - `origin/main`
-- Merge PR #15
-- Branch `legal/impressum-datenschutz-aktualisierung-20261017-v1`
+- Merge PR #16
+- Branch `product/asset-sale-website-texte-20261017-v1`
 - Remote Branch gelöscht
 - lokaler Status sauber
 
