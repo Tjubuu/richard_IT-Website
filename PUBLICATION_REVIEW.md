@@ -25,12 +25,11 @@ Standardbranch:
 Letzter bestätigter Stand:
 
 - `main`
-- Commit `17ee4fe`
+- Commit `bb13bb1`
 - `origin/main`
-- Merge PR #9
-- Branch `legal/impressum-phone-contact-20260522-v1`
+- Merge PR #15
+- Branch `legal/impressum-datenschutz-aktualisierung-20261017-v1`
 - Remote Branch gelöscht
-- lokaler Altbranch `audit/legal-core-pages-20260521-v1` gelöscht
 - lokaler Status sauber
 
 ## Veröffentlichungsziel
